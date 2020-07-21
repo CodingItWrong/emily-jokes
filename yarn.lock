@@ -1037,16 +1037,17 @@
     ember-cli-babel "^6.16.0"
     ember-compatibility-helpers "^1.1.1"
 
-"@ember/test-helpers@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-1.5.0.tgz#a480181c412778294e317c256d04ca52e63c813a"
-  integrity sha512-RrS0O3VlDASMsI6v9nxUgO0k8EJGy1nzz/1HgiScbu8LbCpPj4Mp8S82yT/olXA3TShu7c/RfLZHjlN/iRW2OA==
+"@ember/test-helpers@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-1.7.1.tgz#cc22a954b3b46856518f034bd492a74e0482389f"
+  integrity sha512-+ioumnanSRJzZ0ZH30FIkB0r41UhVyuWQ9R9Yp1phDWJQDLumxg+25WDr40relwcH6z0Cn6LIEzeTVujO/0Rww==
   dependencies:
     broccoli-debug "^0.6.5"
     broccoli-funnel "^2.0.2"
     ember-assign-polyfill "^2.6.0"
-    ember-cli-babel "^7.4.3"
+    ember-cli-babel "^7.7.3"
     ember-cli-htmlbars-inline-precompile "^2.1.0"
+    ember-test-waiters "^1.1.1"
 
 "@embroider/core@0.4.3", "@embroider/core@^0.4.3":
   version "0.4.3"
@@ -4542,7 +4543,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.12.0, ember-cli-babel@^6.16.0,
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.11.0, ember-cli-babel@^7.18.0, ember-cli-babel@^7.20.5, ember-cli-babel@^7.4.3, ember-cli-babel@^7.5.0, ember-cli-babel@^7.7.3:
+ember-cli-babel@^7.11.0, ember-cli-babel@^7.12.0, ember-cli-babel@^7.18.0, ember-cli-babel@^7.20.5, ember-cli-babel@^7.7.3:
   version "7.21.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.21.0.tgz#c79e888876aee87dfc3260aee7cb580b74264bbc"
   integrity sha512-jHVi9melAibo0DrAG3GAxid+29xEyjBoU53652B4qcu3Xp58feZGTH/JGXovH7TjvbeNn65zgNyoV3bk1onULw==
@@ -4975,18 +4976,18 @@ ember-maybe-import-regenerator@^0.1.6:
     ember-cli-babel "^6.0.0-beta.4"
     regenerator-runtime "^0.9.5"
 
-ember-qunit@^4.1.2:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-4.4.1.tgz#3654cadf9fa7e2287fe7b61fc7f19c3eb06222b5"
-  integrity sha512-RYyEqn3UpwLri4+lL9sFdDp1uPa0AfN587661iKm7r3kTAzYHxZE7jRsBDIejhgSH2kVSky0+Q9Y7oLULYiM/Q==
+ember-qunit@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-4.6.0.tgz#ad79fd3ff00073a8779400cc5a4b44829517590f"
+  integrity sha512-i5VOGn0RP8XH+5qkYDOZshbqAvO6lHgF65D0gz8vRx4DszCIvJMJO+bbftBTfYMxp6rqG85etAA6pfNxE0DqsQ==
   dependencies:
-    "@ember/test-helpers" "^1.5.0"
+    "@ember/test-helpers" "^1.7.1"
     broccoli-funnel "^2.0.2"
     broccoli-merge-trees "^3.0.2"
     common-tags "^1.4.0"
-    ember-cli-babel "^7.5.0"
+    ember-cli-babel "^7.12.0"
     ember-cli-test-loader "^2.2.0"
-    qunit "^2.9.2"
+    qunit "^2.9.3"
 
 ember-resolver@^8.0.0:
   version "8.0.0"
@@ -5085,6 +5086,14 @@ ember-template-recast@^4.1.4:
     slash "^3.0.0"
     tmp "^0.2.1"
     workerpool "^6.0.0"
+
+ember-test-waiters@^1.1.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ember-test-waiters/-/ember-test-waiters-1.2.0.tgz#c12ead4313934c24cff41857020cacdbf8e6effe"
+  integrity sha512-aEw7YuutLuJT4NUuPTNiGFwgTYl23ThqmBxSkfFimQAn+keWjAftykk3dlFELuhsJhYW/S8YoVjN0bSAQRLNtw==
+  dependencies:
+    ember-cli-babel "^7.11.0"
+    semver "^6.3.0"
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -8495,10 +8504,10 @@ node-releases@^1.1.58:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.59.tgz#4d648330641cec704bff10f8e4fe28e453ab8e8e"
   integrity sha512-H3JrdUczbdiwxN5FuJPyCHnGHIFqQ0wWxo+9j1kAXAzqNMAHlo+4I/sYYxpyK0irQ73HgdiyzD32oqQDcU2Osw==
 
-node-watch@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.6.0.tgz#ab0703b60cd270783698e57a428faa0010ed8fd0"
-  integrity sha512-XAgTL05z75ptd7JSVejH1a2Dm1zmXYhuDr9l230Qk6Z7/7GPcnAs/UyJJ4ggsXSvWil8iOzwQLW0zuGUvHpG8g==
+node-watch@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.6.1.tgz#b9874111ce9f5841b1c7596120206c7b825be0e9"
+  integrity sha512-gwQiR7weFRV8mAtT0x0kXkZ18dfRLB45xH7q0hCOVQMLfLb2f1ZaSvR57q4/b/Vj6B0RwMNJYbvb69e1yM7qEA==
 
 nopt@^3.0.6:
   version "3.0.6"
@@ -9283,15 +9292,15 @@ qunit-dom@^1.2.0:
     broccoli-funnel "^3.0.2"
     broccoli-merge-trees "^4.2.0"
 
-qunit@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/qunit/-/qunit-2.9.2.tgz#97919440c9c0ae838bcd3c33a2ee42f35c5ef4a0"
-  integrity sha512-wTOYHnioWHcx5wa85Wl15IE7D6zTZe2CQlsodS14yj7s2FZ3MviRnQluspBZsueIDEO7doiuzKlv05yfky1R7w==
+qunit@^2.9.3:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/qunit/-/qunit-2.10.1.tgz#929dbc7cab975dda5537bc6b1321392d061c18ae"
+  integrity sha512-6ntXpabAW+ycodADqsC2QWPr6xLubag3WBujaAfOlltgwkBVDmM0gkB5dS2Mc4RAszmvtYzyYDSMZX5ibwkNWw==
   dependencies:
     commander "2.12.2"
     js-reporters "1.2.1"
     minimatch "3.0.4"
-    node-watch "0.6.0"
+    node-watch "0.6.1"
     resolve "1.9.0"
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
