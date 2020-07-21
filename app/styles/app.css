@@ -4,7 +4,7 @@ body {
 
 .title {
   text-align: center;
-  background-color: #ff8cfb;
+  background-color: #00fff7;
   margin: 0 0 20px;
   padding: 20px;
 }
@@ -26,7 +26,7 @@ button {
   padding: 10px;
   border-radius: 10px;
   font-size: 28px;
-  background-color: #ff8cfb;
+  background-color: #00fff7;
   border: solid 0px black;
   cursor: pointer;
 }
