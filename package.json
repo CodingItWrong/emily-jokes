@@ -41,7 +41,7 @@
     "ember-qunit": "^4.6.0",
     "ember-resolver": "^8.0.2",
     "ember-source": "3.19.0",
-    "eslint-plugin-ember": "^8.9.2",
+    "eslint-plugin-ember": "^8.11.0",
     "eslint-plugin-node": "^11.1.0",
     "handlebars": "^4.7.6",
     "kind-of": "^6.0.3",
