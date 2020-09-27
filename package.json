@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
-    "@glimmer/component": "^1.0.1",
+    "@glimmer/component": "^1.0.2",
     "babel-eslint": "^9.0.0",
     "broccoli-asset-rev": "^3.0.0",
     "clean-css": "^4.2.3",
