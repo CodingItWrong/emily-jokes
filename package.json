@@ -50,7 +50,7 @@
     "minimist": "^1.2.5",
     "qunit-dom": "^1.6.0",
     "serialize-javascript": "^5.0.1",
-    "set-value": "^3.0.2"
+    "set-value": "^4.0.1"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
