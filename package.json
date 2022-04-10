@@ -47,7 +47,7 @@
     "kind-of": "^6.0.3",
     "loader.js": "^4.7.0",
     "lodash.template": "^4.5.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "qunit-dom": "^1.6.0",
     "serialize-javascript": "^5.0.1",
     "set-value": "^4.0.1"
